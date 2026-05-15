@@ -1,0 +1,20 @@
+# Kisan Saathi: AI-Powered Crop Advisory 🌾
+
+Kisan Saathi is a Retrieval-Augmented Generation (RAG) assistant designed to help Indian farmers with crop advisory, soil health, and pest control using official government documents.
+
+## 🚀 Features
+- [cite_start]**Document-Grounded Q&A**: Answers are derived strictly from ICAR and government advisory PDFs[cite: 17, 19].
+- [cite_start]**Source Citations**: Displays the exact text chunks used to generate advice[cite: 14].
+- [cite_start]**Out-of-Scope Rejection**: Refuses to answer non-agricultural queries[cite: 6, 15].
+- [cite_start]**Multilingual Support**: Capable of providing responses in Hindi to assist local farmers[cite: 19].
+
+## 🛠️ Tech Stack
+- [cite_start]**LLM**: Google Gemini 1.5 Flash [cite: 5, 12]
+- **Orchestration**: LangChain
+- [cite_start]**Vector Database**: FAISS [cite: 10]
+- [cite_start]**Frontend**: Streamlit [cite: 13]
+
+## 📋 How to Run
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/your-username/kisan-saathi.git](https://github.com/your-username/kisan-saathi.git)
